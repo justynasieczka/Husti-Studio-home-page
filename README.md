@@ -9,7 +9,7 @@ I created the project to imporve my skills in building websites from scratch. I 
 * responsive design 
 .. and many more
 
-The fictional company I create a website for has a personal undertone. Husti is my nickname and I am a graduated architect. I tried to create an easy on the eye website that I wish my company had.  
+The fictional company I create a website for has a personal undertone. Husti is my nickname and I am a graduated architect. I tried to create an easy on the eyes website that I wish my own company had.  
 
 ## Technologies
 * HTML5
