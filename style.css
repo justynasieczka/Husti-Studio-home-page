@@ -1,11 +1,19 @@
 /* UNIVERSAL STYLES */
 
+* {
+margin: 0;
+padding: 0;
+line-height: 1.4em;
+text-decoration: none;
+}
+
 html,
 body {
   text-align: center;
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-size: 20px;
-  color: black;
+  color: rgb(65, 65, 65);
+  background-color: rgb(243, 245, 245);
   margin: 0;
 }
 
@@ -52,6 +60,7 @@ h1 {
   font-family: 'Encode Sans Semi Expanded', sans-serif;
   font-size: 3rem;
   font-weight: 100;
+  margin: 1.5rem 0;
 }
 
 h1 span {
@@ -67,7 +76,6 @@ nav p {
 
 a {
   color: black;
-  text-decoration: none;
   transition: color, font-weight;
 }
 
@@ -129,6 +137,7 @@ a:hover {
   opacity: 0.95;
   box-shadow: 0.4rem 0.4rem 0.5rem rgb(143, 143, 143);
   transition: filter 200ms ease-in 50ms;
+  cursor: pointer;
 }
 
 .item img:hover {
@@ -167,6 +176,7 @@ a:hover {
 
 hr {
   width: 80%;
+  display: inline-block;
 }
 
 .address {
@@ -191,7 +201,7 @@ footer {
   /* Mobile */
   
   h1 {
-    font-size: 2.7rem;
+    font-size: 2.5rem;
     margin: 1.5rem 1rem;
   }
   
@@ -203,6 +213,7 @@ footer {
   
   p {
     font-size: 0.9rem;
+    margin: 0.7rem;
   }
   
   nav p {
@@ -233,9 +244,13 @@ footer {
     padding: 2rem;
   }
   
+  #team {
+    padding: 2rem;
+  }
+
   .item img {
     width: 14rem;
-    margin: 1rem 1.8rem;
+    margin: 0.8rem 1.8rem;
   }
   
   .team {
