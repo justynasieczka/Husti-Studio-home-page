@@ -69,8 +69,11 @@ h1 span {
 
 /* NAVIGATION BAR */
 
+nav {
+  justify-content: space-around;
+}
+
 nav p {
-  display: inline-block;
   padding: 0 5rem;
 }
 
@@ -159,7 +162,7 @@ a:hover {
   height: auto;
   width: 13rem;
   border-radius: 50%;
-  padding: 1rem 2.5rem;
+  padding: 1.5rem 2.5rem;
 }
 
 .name {
@@ -197,7 +200,7 @@ footer {
   margin: 1rem;
 }
 
-@media only screen and (min-width: 320px) and (max-width: 480px) {
+@media only screen and (max-width: 375px) {
   /* Mobile */
   
   h1 {
@@ -211,13 +214,10 @@ footer {
     padding-bottom: 1rem; 
   }
   
-  p {
-    font-size: 0.9rem;
-    margin: 0.7rem;
-  }
-  
   nav p {
   display: block;
+  font-size: 0.9rem;
+  margin: 0.4rem;
   }
   
   .content h2 {
@@ -263,11 +263,20 @@ footer {
   }
   
   .member {
-    margin: 0.8rem;
+    margin: 0.5rem;
   }
   
   .styling {
     font-size: 1.2rem;
   }
- 
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  nav {
+    justify-content: center;
+  }
+  
+  nav p {
+    padding: 0 2.2rem;
+  }
 }
